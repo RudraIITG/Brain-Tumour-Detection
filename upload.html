@@ -1,0 +1,20 @@
+<<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Upload Image</title>
+</head>
+<body>
+    <h1>Upload Image or Provide Image URL</h1>
+    
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="file">Select Image File:</label>
+        <input type="file" id="file" name="file"><br><br>
+        
+        <label for="image_url">Or Enter Image URL:</label>
+        <input type="text" id="image_url" name="image_url" placeholder="http://example.com/image.jpg"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
